@@ -32,7 +32,7 @@ const Prueba = () => {
   return (
     <>
         {data.map((item) => (
-            <Carta id={item.id} nombre={item.label} coor={item.value} tipo={item.type}/>
+            <Carta key={item.id} id={item.id} nombre={item.label} coor={item.value} tipo={item.type}/>
         ))}
     </>
   )
