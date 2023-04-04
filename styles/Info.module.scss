@@ -1,0 +1,38 @@
+.icon {
+    z-index: 4;
+    width: 40px;
+    height: 40px;
+    margin-left: 10%;
+    margin-top: 5px;
+    color: black;
+
+    @media(max-width:1390px) {
+        margin-left: 40%;
+    }
+}
+
+.cont {
+    width: max-content;
+    top: 0px;
+    z-index: 3;
+    display: grid;
+}
+
+.logo {
+    color: black;
+    margin-top: 6px;
+    font-size: 2rem;
+    max-height: 40px;
+    z-index: 2;
+
+    @media(max-width:1390px) {
+        color: transparent;
+        z-index: 0;
+        font-size: 0;
+    }
+}
+
+.box {
+    text-align: center;
+    width: 250px;
+}
